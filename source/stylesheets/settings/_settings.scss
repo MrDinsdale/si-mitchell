@@ -1,0 +1,37 @@
+// ==================================================================
+//  Sizing
+// ==================================================================
+
+$spacing-standard: 1em;
+$spacing-standard-tiny: $spacing-standard * .25;
+$spacing-standard-small: $spacing-standard * .5;
+$spacing-standard-large: $spacing-standard * 2;
+$spacing-standard-massive: $spacing-standard * 4;
+
+// ==================================================================
+//  Colours
+// ==================================================================
+
+$black: #000;
+$white: #fff;
+$cream: #f3f0ee;
+$grey-dark: #262525;
+$grey-mid: #787878;
+$grey-light: #aaa;
+
+$orange: #f29a3f;
+$red: #db5957;
+$blue: #427a82;
+$green: #77c0b7;
+$green-dark: #4f5e49;
+$lime: #d1dbbd;
+$yellow: #fbd163;
+
+
+// ==================================================================
+//  Fonts
+// ==================================================================
+
+$base-font-size: $cactus-base-font-size;
+$font-headline: 'Oswald', sans-serif;
+$font-body: 'Lato', serif;

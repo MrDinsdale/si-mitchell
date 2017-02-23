@@ -1,0 +1,28 @@
+// ==============================================
+// COMPONENTS / TYPOGRAPHY
+// ==============================================
+
+[class*='c-heading'] {
+  font-family: $font-headline;
+  font-weight: 600;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.c-heading-1 {
+  font-size: convert-to-em(72px);
+
+  @media(max-width: $break-m) {
+    font-size: convert-to-em(64px);
+  }
+}
+
+.c-text-body {
+  font-size: convert-to-em(16px);
+  line-height: 1.5;
+
+  &--large {
+    font-size: convert-to-em(20px);
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,24 @@
+.c-social-links {
+  text-align: center;
+  font-weight: 300;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0;
+
+    &:last-of-type .c-social-links__link {
+      border-right: 0;
+    }
+  }
+
+  &__link {
+    border-right: 1px solid $white;
+    line-height: 1.2em;
+    padding: 0 1em .1em;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "si-mitchell",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "repository": "",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "author": "Joe Dinsdale",
+  "license": "MIT",
+  "devDependencies": {
+    "cactus-framework": "1.1.0"
+  }
+}

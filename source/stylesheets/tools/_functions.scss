@@ -1,0 +1,15 @@
+// ==============================================
+// TOOLS / FUNCTIONS
+// ==============================================
+
+// Convert to em
+// ==============================================
+@function convert-to-em($value, $parent-font-size: $base-font-size) {
+  @if unit($value) == "px" {
+    @return (strip-unit($value / $parent-font-size)) * 1em;
+  }
+
+  @else {
+    @warn "Value must be an px unit";
+  }
+}

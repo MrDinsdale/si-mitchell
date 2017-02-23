@@ -1,0 +1,50 @@
+// ====================================================
+// Cactus Settings
+// ====================================================
+
+$cactus-prefix: 'cac';
+
+$cactus-base-font-size: 16px;
+
+// Wrapper
+//====================================================
+
+$cactus-wrapper-config: (
+  sizes: (
+    default: 40em,
+    wide: 50em
+  )
+);
+
+
+// Group
+//====================================================
+
+$cactus-gutter-config: (
+  outer-enabled: true,
+  sizes: (
+    default: 4em
+  )
+);
+
+$break-m: 36em;
+$break-s: 28em;
+
+$cactus-unit-config: (
+  default: (
+    name: false,
+    breakpoint: false,
+    units: (1 1, 1 2)
+  ),
+  medium: (
+    name: m,
+    breakpoint: $break-m,
+    units: (1 1, 1 2)
+  )
+);
+
+// ====================================================
+// Cactus - Settings - Debug
+// ====================================================
+
+$cactus-debug-enabled: false;
